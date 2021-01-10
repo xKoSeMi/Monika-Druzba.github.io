@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>O mnie</title>
+	<meta name="description" content="Coś o mnie, możesz dowiedzieć się wiele rzeczy o mnie i poznać moje zainteresowania">
+	<meta name="keywords" content="o mnie, zainteresowania, informacje">
+	
+	<style>
+		#pojemnik
+		{
+			font-family: Verdana;
+			font-size: 20px;
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		/*Nieodwiedzony link*/
+		a:link
+		{
+			color: pink;
+		}
+		/*Odwiedzony link*/
+		a:visited
+		{
+			color: pink;
+		}
+		/*Link po najechaniu kursorem*/
+		a:hover
+		{
+			color: red;
+		}
+		
+		#logo
+		{
+			background-color: black;
+			color: white;
+			text-align: center;
+			padding: 15px;
+		}
+		#nav
+		{
+			float: left;
+			background-color: lightgray;
+			width: 120px;
+			min-height: 740px;
+			padding: 20px;
+		}
+		#content
+		{
+			float: left;
+			padding: 20px;
+			width: 660px;
+		}
+		#zdj
+		{
+			float: left;
+			width: 180px;
+			min-height: 690px;
+			background-color: lightgray;
+			padding: 10px;
+		}
+		#stopka
+		{
+			clear: both;
+			background-color: black;
+			color: white;
+			text-align: center;
+			padding: 20px;
+		}
+		.option:hover
+		{
+			background-color: white;
+			cursor: pointer;
+			width:100px;
+			padding: 10px;
+		}
+	</style>
+		
+</head>
+<body>
+	<div id="pojemnik">
+	
+	<div id="logo">
+		<h1>Monika Drużba</h1>
+	</div>
+	
+	<div id="nav">
+		<div class="option">Sport</div> <br>
+		<div class="option">Zwierzęta</div> <br>
+		<div class="option">Podróże</div> <br>
+		<div class="option">Fotografia</div> <br>
+	</div>
+	
+	<div id="content">
+		Mam na imię Monika <br>
+		Mam 19 lat <br>
+		Jestem studentką pierwszego roku na kierunku logistyka, a uczelnia do której uczęszczam to
+		<a href="https://www.uph.edu.pl/" target="_blank" title="Przejdź do strony UPH">
+		Uniwersytet Przyrodniczo Humanistyczny w Siedlcach </a>
+		<br><br>
+		<img src="img/kot.jpg" width="580" height="350">
+	</div>
+	
+	<div id="zdj">
+		<img src="img/kwiaty.jpg" width="180" height="740">
+	</div>
+	
+	<div id="stopka">
+		Coś o mnie
+	</div>
+	</div>
+
+</body>	
+</html>
